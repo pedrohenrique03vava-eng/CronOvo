@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ovos.css">
+    <title>CronOVO</title>
+</head>
+<body>
+    <main class="container">
+        <h2>CronOvo</h2>
+     
+            
+            <button class="home"><img  src="IMGS/home.png" onclick="inicio()" alt=""></button>
+        
+        
+        <img src="IMGS/GEMAMEDIA.png" alt="">
+        
+        
+
+        <section class="temporizador">
+            <h1 id="display">8:00</h1>
+
+            <div class="botoes">
+            <button class="iniciar" id="inciarBT"  onclick="start()">Começar</button>
+            <button class="iniciar" id="pararBT" onclick="stop()">Parar</button>
+            </div>
+        </section>
+    </main>
+      <dialog id="modal" class="modal">
+        <h2>SEU OVO ESTA PRONTO!!!!!</h2>
+
+        <img src="IMGS/MODALRELOGIO.png" alt="">
+
+
+        <button id="modal-button" onclick="fecharModal()">SAIR</button>
+    </dialog>
+    <script src="medio.js"></script>
+</body>
+</html>

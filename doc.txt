@@ -1,0 +1,5 @@
+Aplicativo CronOvo--
+
+Vai ter 4 paginas, sendo a principal para navegação e 
+escolha de timer para o OVO
+
